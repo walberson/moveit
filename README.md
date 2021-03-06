@@ -1,6 +1,6 @@
 # moveit
 📕Ferramenta essencial para a produtividade em HomeOffice!
-https://img.shields.io/badge/Feito%20por-Walberson%20Dias-blueviolet
+<img src="https://img.shields.io/badge/Feito%20por-Walberson%20Dias-blueviolet" alt="https://www.linkedin.com/in/walbersonsilva/">
 
 Sobre
 Ferramenta desenvolvida na NextLevelWeek 4 RocketSeat
