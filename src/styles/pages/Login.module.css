@@ -1,0 +1,111 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.25rem;
+  align-content: center;
+  background: var(--blue)
+}
+
+.symbol{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wellcome{
+  display: flex;
+  align-items: center;
+}
+
+.wellcome main{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.wellcome main > img{
+  height: 76px;
+  width: 360px;
+  margin-bottom: 6rem;
+}
+
+.wellcome main strong{
+  font-size: 2.25rem;
+  color: var(--white);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.githubContainer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.githubContainer img{
+  height: 40px;
+  width: 40px; 
+}
+
+.githubContainer p {
+  max-width: 15.875rem;
+  width: 100%;
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-highlight)
+}
+
+.inputContainer{
+  display: flex;
+  align-items: center;
+}
+
+.inputContainer input{
+  height: 80px;
+  width: 340px;
+  border: 0;
+  background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+  padding: 1rem 7rem 1rem 1rem ;
+  font-weight: 400;
+  color: var(--text-highlight);
+  font-size: 1.25rem;
+  border-radius: 5px;
+  margin-right: 0.9375rem;
+}
+
+.inputContainer input::placeholder{
+  font-weight: 400;
+  color: var(--text-highlight);
+  font-size: 1.25rem;
+}
+
+.inputContainer input:hover{
+  border: 1.5px solid #414AA3;
+}
+
+.inputContainer input:focus::placeholder {
+  color: transparent;
+}
+
+.inputContainer input:focus{
+  border: 1.5px solid #414AA3;
+  outline: none;
+}
+
+.inputContainer button{
+  width: 80px;
+  height: 80px;
+  border: 0;
+  background: var(--blue-dark);
+}
+
+.inputContainer button img{
+  width: 24px;
+  height: 24px;
+  color: var(--white);
+}
